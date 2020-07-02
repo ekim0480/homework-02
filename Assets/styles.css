@@ -24,6 +24,71 @@ body {
     margin-right: 15px;
 }
 
+/* center contents within columns */
+.col-sm-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    width: 15rem;
+    height: 12rem;
+}
+
+/* setting properties for background images in cards */
+.card-body {
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: 15rem 12rem;
+    background-color: aquamarine;
+}
+
+.btn {
+    align-items: center;
+    width: 100%;
+}
+
+/* background image placeholders for cards */
+.port1 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+.port2 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+.port3 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+.port4 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+.port5 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+.port6 {
+    background-image: url(https://picsum.photos/200/300);
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+.contactmelinks ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contactmelinks li {
+    display: inline-block;
+    margin: 0px 25px;
+}
+
 /* CSS to make footer go all the way to the bottom of page, relative to body */
 footer {
     position: absolute;

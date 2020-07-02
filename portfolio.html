@@ -17,9 +17,7 @@
     <header>
       <!-- Navbar start -->
       <!-- Using bootstrap classes to force row alignment on sm+ sizes, and force column alignment mobile sized devices -->
-      <nav
-        class="navbar d-flex flex-column d-sm-flex flex-sm-row navbar-expand navbar-dark bg-primary fixed-top"
-      >
+      <nav class="navbar d-flex flex-column d-sm-flex flex-sm-row navbar-expand navbar-dark bg-primary fixed-top">
         <!-- Adding some spacing -->
         <div class="d-flex flex-grow-1">
           <span class="w-100"></span>
@@ -30,9 +28,7 @@
           <div class="w-100">
           </div>
         </div>
-        <div
-          class="collapse navbar-collapse flex-grow-1 text-right"
-        >
+        <div class="collapse navbar-collapse flex-grow-1 text-right">
           <!-- Align links to right -->
           <ul class="navbar-nav ml-auto flex-nowrap">
             <li class="nav-item">
@@ -47,19 +43,86 @@
           </ul>
         </div>
       </nav>  
+      <!-- End Navbar -->
     </header>
     <main>
-        <div class="container">
-            <div class="jumbotron">
-                <h1>My Portfolio</h1>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam exercitationem magni sunt veniam delectus quaerat dignissimos eveniet deserunt, voluptatum nesciunt consequatur asperiores fuga quae provident, nobis non est reiciendis nisi?</p>
+      <!-- Begin of container to wrap all content in body -->
+      <div class="container">
+        <!-- Begin jumbotron -->
+        <div class="jumbotron">
+          <h1>My Portfolio</h1>
+          <hr class="my-4">
+          <!-- Using Bootstraps grid layout to make 3 rows, 2 colums each -->
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body port1">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn bg-primary text-white">Project 1</a>
+                </div>
+              </div>
             </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body port2">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn bg-primary text-white">Project 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body port3">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn bg-primary text-white">Project 3</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body port4">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn bg-primary text-white">Project 4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body port5">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn bg-primary text-white">Project 5</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body port6">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn bg-primary text-white">Project 6</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End rows and columns -->
         </div>
+        <!-- End Jumbotron -->
+      </div>
+      <!-- End body container -->
     </main>
+    <!-- Begin footer -->
     <footer class="bg-primary">
       &copy; blahblahblah
     </footer>
+    <!-- End footer -->
   </body>
 </html>
