@@ -1,3 +1,14 @@
+/* position, padding, and min-height needed to make footer work */
+body {
+    position: relative;
+    background-image: url(./Images/bodybg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 60px;
+    min-height: 100vh;
+}
+
 .navbar {
     min-height: 80px;
 }
@@ -6,6 +17,22 @@
 .jumbotron {
     margin-top: 10%;
     margin-right: 10%;
+}
+
+.selfportrait {
+    float: left;
+    margin-right: 15px;
+}
+
+/* CSS to make footer go all the way to the bottom of page, relative to body */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
 }
 
 /* further adjustments to jumbotron margins for when navbar collapses */
@@ -20,4 +47,5 @@
 @media (min-width: 576px) {
     .jumbotron {
     padding: 5%;
+    }
 }
