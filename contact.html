@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <!-- Link to my own css -->
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Contact Me</title>
+  </head>
+  <!-- Add padding so fixed navbar doesn't hide content at top of body -->
+  <body class="pt-5">
+    <header>
+      <!-- Navbar start -->
+      <!-- Using bootstrap classes to force row alignment on sm+ sizes, and force column alignment mobile sized devices -->
+      <nav
+        class="navbar d-flex flex-column d-sm-flex flex-sm-row navbar-expand navbar-dark bg-primary fixed-top"
+      >
+        <!-- Adding some spacing -->
+        <div class="d-flex flex-grow-1">
+          <span class="w-100"></span>
+          <a class="navbar-brand mx-auto">
+            Eddie Kim
+          </a>
+          <!-- Aligning and spacing my name -->
+          <div class="w-100">
+          </div>
+        </div>
+        <div
+          class="collapse navbar-collapse flex-grow-1 text-right"
+        >
+          <!-- Align links to right -->
+          <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>  
+    </header>
+    <main>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Contact Me</h1>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam exercitationem magni sunt veniam delectus quaerat dignissimos eveniet deserunt, voluptatum nesciunt consequatur asperiores fuga quae provident, nobis non est reiciendis nisi?</p>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
