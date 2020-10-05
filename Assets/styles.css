@@ -52,19 +52,19 @@ body {
 
 /* background image placeholders for cards */
 .port1 {
-    background-image: url(https://picsum.photos/200/300);
+    background-image: url(images/pwgenbg.jpg);
 }
 
 .port2 {
-    background-image: url(https://picsum.photos/200/300);
+    background-image: url(Images/jsquizbg.webp);
 }
 
 .port3 {
-    background-image: url(https://picsum.photos/200/300);
+    background-image: url(Images/workdayschedulerbg.jpg);
 }
 
 .port4 {
-    background-image: url(https://picsum.photos/200/300);
+    background-image: url(Images/weatherdashboardbg.jpg);
 }
 
 .port5 {
