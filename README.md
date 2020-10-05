@@ -9,3 +9,7 @@ I tried adding a footer and it became much more complicated than I anticipated. 
 The rest of it should be made clear through the comments included.
 
 Future plans include possibly adding more images, such as in the navbar background instead of the default bootstrap color, adding icons (brand, facebook link, email, etc), making the entire card/image for portfolio items a button, and maybe toying with different fonts.
+
+# homework-7
+
+Updated portfolio page with links to some projects
