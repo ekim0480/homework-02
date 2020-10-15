@@ -14,6 +14,6 @@ Future plans include possibly adding more images, such as in the navbar backgrou
 
 Updated portfolio page with links to some projects
 
-#homework-16
+# homework-16
 
 Updated with more portfolio items, contact links, github bio and pins.
