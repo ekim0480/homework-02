@@ -100,6 +100,10 @@ footer {
     line-height: 60px;
 }
 
+#emailLink {
+    color: white;
+}
+
 /* further adjustments to jumbotron margins for when navbar collapses */
 @media (max-width: 576px) {
     .jumbotron {
